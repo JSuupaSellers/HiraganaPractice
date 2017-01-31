@@ -12,7 +12,41 @@
     tools:context="com.jumpingbeanapps.android.hiraganapractice.MainActivity">
 
     <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Hiragana Practice"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/quiz"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/study"
+            android:layout_toRightOf="@+id/quiz"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/quiz"
+            android:id="@+id/draw"
+            android:onClick="openDraw"
+            android:text="Practice Writing"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/draw"
+            android:layout_below="@+id/study"
+            android:id="@+id/settings"/>
+    </RelativeLayout>
+
+
 </RelativeLayout>
