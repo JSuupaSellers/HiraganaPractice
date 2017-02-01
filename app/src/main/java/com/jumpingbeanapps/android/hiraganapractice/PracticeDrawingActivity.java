@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -37,6 +39,7 @@ public class PracticeDrawingActivity extends AppCompatActivity {
     private DrawingView drawingView;
     private int resourceId;
     private AdView mAdView;
+    private CheckBox mCheckBox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +48,7 @@ public class PracticeDrawingActivity extends AppCompatActivity {
         mPlay = (ImageButton)findViewById(R.id.play_btn);
         mNew = (ImageButton)findViewById(R.id.clear_btn);
         drawingView = (DrawingView)findViewById(R.id.drawing);
+        mCheckBox = (CheckBox)findViewById(R.id.check_blank);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
         mSoundSetup = new SoundSetup(this);
@@ -58,6 +62,17 @@ public class PracticeDrawingActivity extends AppCompatActivity {
         mAdView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        mCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(!mCheckBox.isChecked()){
+                    traceImage.setImageResource(resourceId);
+                }else{
+                    traceImage.setImageDrawable(null);
+                }
+            }
+        });
 
         mPlay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,7 +111,10 @@ public class PracticeDrawingActivity extends AppCompatActivity {
             mLetterName.setText(mSound.getName());
             Resources res = getResources();
             int id = res.getIdentifier(mSound.getName(), "drawable", getPackageName());
-            mLetterImage.setImageResource(id);
+            if(!mCheckBox.isChecked()){
+                mLetterImage.setImageResource(id);
+            }
+
         }
 
         @Override
@@ -104,7 +122,10 @@ public class PracticeDrawingActivity extends AppCompatActivity {
             currentSound = mSound;
             Resources res = getResources();
             int id = res.getIdentifier(mSound.getName(),"drawable",getPackageName());
-            traceImage.setImageResource(id);
+            resourceId = id;
+            if(!mCheckBox.isChecked()){
+                traceImage.setImageResource(id);
+            }
             drawingView.startNew();
         }
 

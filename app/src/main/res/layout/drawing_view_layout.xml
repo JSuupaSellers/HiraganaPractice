@@ -23,6 +23,12 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/play"
             android:src="@drawable/ic_play"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/check_blank"
+            android:text="Blank Canvas"
+            android:checked="false"/>
 
     </LinearLayout>
     <android.support.v7.widget.RecyclerView

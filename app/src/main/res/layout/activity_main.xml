@@ -32,6 +32,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/study"
+            android:text="Study"
             android:layout_toRightOf="@+id/quiz"/>
         <Button
             android:layout_width="100dp"
@@ -44,8 +45,9 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_toRightOf="@+id/draw"
+            android:text="Pronunciation"
             android:layout_below="@+id/study"
-            android:id="@+id/settings"/>
+            android:id="@+id/pronunciating"/>
     </RelativeLayout>
 
 
