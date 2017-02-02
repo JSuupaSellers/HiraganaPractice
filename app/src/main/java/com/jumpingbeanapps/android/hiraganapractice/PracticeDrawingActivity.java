@@ -41,6 +41,11 @@ public class PracticeDrawingActivity extends AppCompatActivity {
     private AdView mAdView;
     private CheckBox mCheckBox;
     @Override
+    protected void onResume(){
+        super.onResume();
+        mLetters.getAdapter().notifyDataSetChanged();
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drawing_view_layout);
