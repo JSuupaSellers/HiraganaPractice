@@ -40,6 +40,7 @@ public class PracticeDrawingActivity extends AppCompatActivity {
     private int resourceId;
     private AdView mAdView;
     private CheckBox mCheckBox;
+    private int streamId;
     @Override
     protected void onResume(){
         super.onResume();

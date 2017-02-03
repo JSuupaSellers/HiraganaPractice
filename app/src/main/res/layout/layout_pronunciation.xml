@@ -10,7 +10,7 @@
         android:id="@+id/hiragana_letters_recycler_view"
         android:background="@drawable/lined_paper_background"
         android:paddingLeft="35dp"
-        android:layout_height="300dp"/>
+        android:layout_height="410dp"/>
 
     <ImageButton
         android:layout_width="210dp"

@@ -20,6 +20,8 @@ public class SoundSetup {
     private static final String SOUNDS_FOLDER = "hiragana_sounds";
     private static final int MAX_SOUNDS = 1;
 
+    private int streamId;
+
     private SoundPool mSoundPool;
     private AssetManager mAssets;
     private List<Sound> mSounds = new ArrayList<>();
@@ -62,7 +64,15 @@ public class SoundSetup {
         if(soundId == null){
             return;
         }
-        mSoundPool.play(soundId, 1.0f, 1.0f, 1, 0, 1.0f);
+       streamId = mSoundPool.play(soundId, 1.0f, 1.0f, 1, 0, 1.0f);
+    }
+
+    public int getStreamId(){
+        return streamId;
+    }
+
+    public SoundPool getSoundPool(){
+        return mSoundPool;
     }
 
     public List<Sound> getSounds(){
