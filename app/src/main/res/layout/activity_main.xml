@@ -47,6 +47,7 @@
             android:layout_toRightOf="@+id/draw"
             android:text="Pronunciation"
             android:layout_below="@+id/study"
+            android:onClick="openPronunc"
             android:id="@+id/pronunciating"/>
     </RelativeLayout>
 

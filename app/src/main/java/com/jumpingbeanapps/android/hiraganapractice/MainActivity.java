@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,PracticeDrawingActivity.class);
         startActivity(intent);
     }
+    public void openPronunc(View view){
+        Intent intent = new Intent(this,PronunciateActivity.class);
+        startActivity(intent);
+    }
 }

@@ -49,6 +49,7 @@ public class PracticeDrawingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drawing_view_layout);
+
         currentSound = null;
         mPlay = (ImageButton)findViewById(R.id.play_btn);
         mNew = (ImageButton)findViewById(R.id.clear_btn);
