@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "979251620689",
+    "firebase_url": "https://write-hiragana.firebaseio.com",
+    "project_id": "write-hiragana",
+    "storage_bucket": "write-hiragana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979251620689:android:97eb0b2aee415ad9",
+        "android_client_info": {
+          "package_name": "com.jumpingbeanapps.android.hiraganapractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979251620689-hqlf6k7s27ub6vt8mjkuvnmg94mou3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpJzJyeYV29xhFyYRPA2921Jc_hDQENYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

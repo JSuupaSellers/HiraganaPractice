@@ -160,7 +160,7 @@ public class PronunciateActivity extends AppCompatActivity {
 
     private void requestNewInterstitial() {
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("94879277037E202CB8E6FFB349D8DE04")
+//                .addTestDevice("94879277037E202CB8E6FFB349D8DE04")
                 .build();
 
         mInterstitialAd.loadAd(adRequest);
