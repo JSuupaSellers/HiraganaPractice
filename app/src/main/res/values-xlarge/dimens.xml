@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="small_bush">20dp</dimen>
+    <integer name="small_brush">20</integer>
+    <dimen name="medium_brush">40dp</dimen>
+    <integer name="medium_size">40</integer>
+    <dimen name="large_brush">60dp</dimen>
+    <integer name="large_size">60</integer>
+
+    <!--xLarge menu layout dimens -->
+
+    <dimen name="title_xl_height">200dp</dimen>
+    <dimen name="title_xl_margin_top">40dp</dimen>
+    <dimen name="button_xl_height">300dp</dimen>
+    <dimen name="button_xl_width">400dp</dimen>
+    <dimen name="button_xl_long_width">800dp</dimen>
+    <dimen name="logo_xl_normal">300dp</dimen>
+    <dimen name="xl_title_text_size">90sp</dimen>
+    <dimen name="text_size">40sp</dimen>
+</resources>

@@ -8,4 +8,14 @@
     <integer name="medium_size">20</integer>
     <dimen name="large_brush">30dp</dimen>
     <integer name="large_size">30</integer>
+
+
+    <!-- Normal menu layout dimens -->
+    <dimen name="title_normal_height">100dp</dimen>
+    <dimen name="title_normal_margin_top">20dp</dimen>
+    <dimen name="button_normal_height">150dp</dimen>
+    <dimen name="button_normal_width">200dp</dimen>
+    <dimen name="button_normal_long_width">400dp</dimen>
+    <dimen name="logo_square_normal">150dp</dimen>
+    <dimen name="text_size">20sp</dimen>
 </resources>

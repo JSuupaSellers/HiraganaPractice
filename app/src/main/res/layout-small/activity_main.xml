@@ -14,12 +14,12 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/title_normal_height"
+        android:layout_height="100dp"
         android:text="Write! Hiragana"
         android:id="@+id/title"
         android:textSize="45sp"
         android:textColor="#000"
-        android:layout_marginTop="@dimen/title_normal_margin_top"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/logo"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"/>
@@ -31,21 +31,21 @@
         android:layout_centerHorizontal="true"
         >
         <Button
-            android:layout_width="@dimen/button_normal_long_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_long_width"
+            android:layout_height="@dimen/button_height"
             android:text="Quiz"
             android:onClick="openQuiz"
             android:id="@+id/quiz"/>
         <Button
-            android:layout_width="@dimen/button_normal_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
             android:layout_below="@+id/quiz"
             android:id="@+id/draw"
             android:onClick="openDraw"
             android:text="Writing"/>
         <Button
-            android:layout_width="@dimen/button_normal_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_heigh"
             android:layout_toRightOf="@+id/draw"
             android:text="Pronunciation"
             android:layout_below="@id/quiz"
@@ -54,8 +54,8 @@
     </RelativeLayout>
 
     <ImageView
-        android:layout_width="@dimen/logo_square_normal"
-        android:layout_height="@dimen/logo_square_normal"
+        android:layout_width="@dimen/logo_normal"
+        android:layout_height="@dimen/logo_normal"
         android:src="@drawable/a"
         android:id="@+id/logo"
         android:layout_alignParentTop="true"

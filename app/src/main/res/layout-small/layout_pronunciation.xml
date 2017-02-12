@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:background="#33B5E5">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/hiragana_letters_recycler_view"
+        android:background="@drawable/lined_paper_background"
+        android:paddingLeft="35dp"
+        android:layout_height="410dp"/>
+
+    <ImageButton
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:id="@+id/record"
+        android:background="#000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/not_recording"
+        android:layout_below="@id/hiragana_letters_recycler_view"/>
+    <ImageButton
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:background="#000"
+        android:id="@+id/play_recording"
+        android:src="@drawable/ic_play"
+        android:layout_toRightOf="@id/record"
+        android:layout_below="@id/hiragana_letters_recycler_view"/>
+
+
+
+</RelativeLayout>

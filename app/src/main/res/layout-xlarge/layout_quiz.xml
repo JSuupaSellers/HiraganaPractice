@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:background="#FF33B5E5"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/question_being_asked"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/d"
+            android:textSize="40sp"
+            android:layout_below="@+id/b"
+            android:layout_toRightOf="@+id/c"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="40sp"
+            android:id="@+id/b"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/a"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="40sp"
+
+            android:id="@+id/c"
+            android:layout_below="@+id/a"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="40sp"
+
+            android:id="@+id/a"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

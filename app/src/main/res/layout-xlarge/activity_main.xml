@@ -14,12 +14,12 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/title_normal_height"
+        android:layout_height="@dimen/title_xl_height"
         android:text="Write! Hiragana"
         android:id="@+id/title"
-        android:textSize="45sp"
+        android:textSize="@dimen/xl_title_text_size"
         android:textColor="#000"
-        android:layout_marginTop="@dimen/title_normal_margin_top"
+        android:layout_marginTop="@dimen/title_xl_margin_top"
         android:layout_below="@+id/logo"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"/>
@@ -31,22 +31,25 @@
         android:layout_centerHorizontal="true"
         >
         <Button
-            android:layout_width="@dimen/button_normal_long_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_xl_long_width"
+            android:layout_height="@dimen/button_xl_height"
             android:text="Quiz"
+            android:textSize="@dimen/text_size"
             android:onClick="openQuiz"
             android:id="@+id/quiz"/>
         <Button
-            android:layout_width="@dimen/button_normal_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_xl_width"
+            android:layout_height="@dimen/button_xl_height"
             android:layout_below="@+id/quiz"
+            android:textSize="@dimen/text_size"
             android:id="@+id/draw"
             android:onClick="openDraw"
             android:text="Writing"/>
         <Button
-            android:layout_width="@dimen/button_normal_width"
-            android:layout_height="@dimen/button_normal_height"
+            android:layout_width="@dimen/button_xl_width"
+            android:layout_height="@dimen/button_xl_height"
             android:layout_toRightOf="@+id/draw"
+            android:textSize="@dimen/text_size"
             android:text="Pronunciation"
             android:layout_below="@id/quiz"
             android:onClick="openPronunc"
@@ -54,8 +57,8 @@
     </RelativeLayout>
 
     <ImageView
-        android:layout_width="@dimen/logo_square_normal"
-        android:layout_height="@dimen/logo_square_normal"
+        android:layout_width="@dimen/logo_xl_normal"
+        android:layout_height="@dimen/logo_xl_normal"
         android:src="@drawable/a"
         android:id="@+id/logo"
         android:layout_alignParentTop="true"
