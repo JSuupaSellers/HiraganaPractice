@@ -34,19 +34,22 @@
             android:layout_width="@dimen/button_long_width"
             android:layout_height="@dimen/button_height"
             android:text="Quiz"
+            android:textSize="@dimen/text_size"
             android:onClick="openQuiz"
             android:id="@+id/quiz"/>
         <Button
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_height"
             android:layout_below="@+id/quiz"
+            android:textSize="@dimen/text_size"
             android:id="@+id/draw"
             android:onClick="openDraw"
             android:text="Writing"/>
         <Button
             android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_heigh"
+            android:layout_height="@dimen/button_height"
             android:layout_toRightOf="@+id/draw"
+            android:textSize="@dimen/text_size"
             android:text="Pronunciation"
             android:layout_below="@id/quiz"
             android:onClick="openPronunc"

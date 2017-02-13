@@ -18,4 +18,28 @@
     <dimen name="button_long_width">600dp</dimen>
     <dimen name="logo_normal">225dp</dimen>
     <dimen name="text_size">30sp</dimen>
+
+    <!-- drawing view -->
+    <dimen name="linear_layout_height">75dp</dimen>
+    <dimen name="frame_layout_height">645dp</dimen>
+    <dimen name="drawingview_margin_bot">4.5dp</dimen>
+    <dimen name="drawingview_margin_left">7.5dp</dimen>
+    <dimen name="drawingview_margin_right">7.5dp</dimen>
+    <dimen name="letter_to_draw_square">525dp</dimen>
+
+    <!-- pronunciation layout -->
+    <dimen name="recyclerview_padding_left">52.5dp</dimen>
+    <dimen name="recyclerview_layout_height">615dp</dimen>
+    <dimen name="record_width">315dp</dimen>
+    <dimen name="record_height">300dp</dimen>
+
+    <!-- quiz layout -->
+    <dimen name="question_square">300dp</dimen>
+    <dimen name="question_margin_top">60dp</dimen>
+    <dimen name="answer_text_size">60sp</dimen>
+    <dimen name="answer_square">225dp</dimen>
+
+    <!-- list item -->
+    <dimen name="lin_layout_margin_right">15dp</dimen>
+    <dimen name="letter_text_size">30sp</dimen>
 </resources>

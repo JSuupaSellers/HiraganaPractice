@@ -9,20 +9,20 @@
         android:layout_width="match_parent"
         android:id="@+id/hiragana_letters_recycler_view"
         android:background="@drawable/lined_paper_background"
-        android:paddingLeft="35dp"
-        android:layout_height="410dp"/>
+        android:paddingLeft="@dimen/recyclerview_padding_left"
+        android:layout_height="@dimen/recyclerview_layout_height"/>
 
     <ImageButton
-        android:layout_width="210dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/record_width"
+        android:layout_height="@dimen/record_height"
         android:id="@+id/record"
         android:background="#000"
         android:scaleType="fitCenter"
         android:src="@drawable/not_recording"
         android:layout_below="@id/hiragana_letters_recycler_view"/>
     <ImageButton
-        android:layout_width="210dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/record_width"
+        android:layout_height="@dimen/record_height"
         android:scaleType="fitCenter"
         android:background="#000"
         android:id="@+id/play_recording"

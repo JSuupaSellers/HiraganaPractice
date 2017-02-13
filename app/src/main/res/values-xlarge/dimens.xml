@@ -19,4 +19,28 @@
     <dimen name="logo_xl_normal">300dp</dimen>
     <dimen name="xl_title_text_size">90sp</dimen>
     <dimen name="text_size">40sp</dimen>
+
+    <!-- drawing view -->
+    <dimen name="linear_layout_height">100dp</dimen>
+    <dimen name="frame_layout_height">860dp</dimen>
+    <dimen name="drawingview_margin_bot">6dp</dimen>
+    <dimen name="drawingview_margin_left">10dp</dimen>
+    <dimen name="drawingview_margin_right">10dp</dimen>
+    <dimen name="letter_to_draw_square">700dp</dimen>
+
+    <!-- pronunciation layout -->
+    <dimen name="recyclerview_padding_left">70dp</dimen>
+    <dimen name="recyclerview_layout_height">820dp</dimen>
+    <dimen name="record_width">420dp</dimen>
+    <dimen name="record_height">400dp</dimen>
+
+    <!-- quiz layout -->
+    <dimen name="question_square">400dp</dimen>
+    <dimen name="question_margin_top">80dp</dimen>
+    <dimen name="answer_text_size">80sp</dimen>
+    <dimen name="answer_square">300dp</dimen>
+
+    <!-- list item -->
+    <dimen name="lin_layout_margin_right">20dp</dimen>
+    <dimen name="letter_text_size">40sp</dimen>
 </resources>
