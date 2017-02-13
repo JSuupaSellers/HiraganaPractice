@@ -17,7 +17,7 @@
         android:layout_height="@dimen/title_normal_height"
         android:text="Write! Hiragana"
         android:id="@+id/title"
-        android:textSize="45sp"
+        android:textSize="@dimen/text_size"
         android:textColor="#000"
         android:layout_marginTop="@dimen/title_normal_margin_top"
         android:layout_below="@+id/logo"
