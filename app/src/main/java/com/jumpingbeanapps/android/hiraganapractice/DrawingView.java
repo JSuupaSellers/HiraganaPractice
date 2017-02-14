@@ -21,6 +21,7 @@ public class DrawingView extends View {
     private int paintColor = 0xFF660000;
     private Canvas drawCanvas;
     private Bitmap canvasBitmap;
+    private int strokeWidth = 75;
 
     public DrawingView(Context context, AttributeSet attrs){
         super(context,attrs);
@@ -32,13 +33,18 @@ public class DrawingView extends View {
 
         drawPaint.setColor(paintColor);
         drawPaint.setAntiAlias(true);
-        drawPaint.setStrokeWidth(75);
+        drawPaint.setStrokeWidth(strokeWidth);
         drawPaint.setStyle(Paint.Style.STROKE);
         drawPaint.setStrokeJoin(Paint.Join.ROUND);
         drawPaint.setStrokeCap(Paint.Cap.SQUARE);
 
         canvasPaint = new Paint(Paint.DITHER_FLAG);
 
+    }
+
+    public void setStrokeWidth(int strokeWidth){
+        this.strokeWidth = strokeWidth;
+        drawPaint.setStrokeWidth(strokeWidth);
     }
 
     @Override

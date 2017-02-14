@@ -4,7 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="small_bush">5dp</dimen>
     <integer name="small_brush">10</integer>
-    <dimen name="medium_brush">10dp</dimen>
+    <dimen name="medium_brush">18dp</dimen>
     <integer name="medium_size">20</integer>
     <dimen name="large_brush">15dp</dimen>
     <integer name="large_size">30</integer>
@@ -25,7 +25,7 @@
     <dimen name="drawingview_margin_bot">3dp</dimen>
     <dimen name="drawingview_margin_left">5dp</dimen>
     <dimen name="drawingview_margin_right">5dp</dimen>
-    <dimen name="letter_to_draw_square">350dp</dimen>
+    <dimen name="letter_to_draw_square">250dp</dimen>
 
     <!-- pronunciation layout -->
     <dimen name="recyclerview_padding_left">35dp</dimen>

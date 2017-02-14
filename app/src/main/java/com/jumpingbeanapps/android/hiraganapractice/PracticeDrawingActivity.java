@@ -3,6 +3,7 @@ package com.jumpingbeanapps.android.hiraganapractice;
 import android.content.res.Resources;
 import android.media.Image;
 import android.os.Bundle;
+import android.support.annotation.DimenRes;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -55,6 +56,8 @@ public class PracticeDrawingActivity extends AppCompatActivity {
         mPlay = (ImageButton)findViewById(R.id.play_btn);
         mNew = (ImageButton)findViewById(R.id.clear_btn);
         drawingView = (DrawingView)findViewById(R.id.drawing);
+        float resource = getResources().getDimension(R.dimen.medium_brush);
+        drawingView.setStrokeWidth((int)resource);
         mCheckBox = (CheckBox)findViewById(R.id.check_blank);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);

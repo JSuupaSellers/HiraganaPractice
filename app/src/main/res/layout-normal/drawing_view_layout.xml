@@ -71,6 +71,7 @@
             android:layout_width="@dimen/letter_to_draw_square"
             android:layout_height="@dimen/letter_to_draw_square"
             android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/letter_to_draw_margin_bot"
             android:alpha=".2"
             />
     </FrameLayout>

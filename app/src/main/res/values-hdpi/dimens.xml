@@ -2,12 +2,12 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="small_bush">10dp</dimen>
-    <integer name="small_brush">10</integer>
-    <dimen name="medium_brush">20dp</dimen>
-    <integer name="medium_size">20</integer>
-    <dimen name="large_brush">30dp</dimen>
-    <integer name="large_size">30</integer>
+    <dimen name="small_bush">5dp</dimen>
+    <integer name="small_brush">5</integer>
+    <dimen name="medium_brush">14dp</dimen>
+    <integer name="medium_size">10</integer>
+    <dimen name="large_brush">15dp</dimen>
+    <integer name="large_size">15</integer>
 
 
     <!-- Normal menu layout dimens -->
@@ -17,7 +17,7 @@
     <dimen name="button_normal_width">150dp</dimen>
     <dimen name="button_normal_long_width">400dp</dimen>
     <dimen name="logo_square_normal">100dp</dimen>
-    <dimen name="text_size">40sp</dimen>
+    <dimen name="text_size">25sp</dimen>
 
     <!-- drawing view -->
     <dimen name="linear_layout_height">40dp</dimen>
@@ -26,6 +26,7 @@
     <dimen name="drawingview_margin_left">5dp</dimen>
     <dimen name="drawingview_margin_right">5dp</dimen>
     <dimen name="letter_to_draw_square">200dp</dimen>
+    <dimen name="letter_to_draw_margin_bot">40dp</dimen>
 
     <!-- pronunciation layout -->
     <dimen name="recyclerview_padding_left">35dp</dimen>
